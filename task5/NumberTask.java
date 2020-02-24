@@ -1,6 +1,11 @@
+/*
+    Make changes to get input at runtime.
+*/
+
+
 public class NumberTask{
     public static void main (String[] args){
-        
+
         int CheckNumber=2;
         
         boolean isPrime=true;
