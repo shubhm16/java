@@ -51,13 +51,13 @@ public class NumberTask {
                 // System.out.println(numberToCheck + " Divided by " + i + " gives a remainder "
                 // + remainder);
 
-                // if remainder is 0 than numberToCheckber is not prime and break loop. Elese
-                // continue loop
                 if (remainder == 0) {
                     isPrime = false;
                     // break;
-                }
+                } else {
+                    isPrime = true;
 
+                }
             }
             // Check value true or false,if isprime is true then numberToCheckber is prime
             // otherwise not prime
